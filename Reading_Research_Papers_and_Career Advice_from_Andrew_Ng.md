@@ -12,10 +12,8 @@
 
    - **对于相关度最高的论文或资源，你可以进行更深层次的理解。**
 
-     > [!TIP]
-     >
-     > **与主题相关性高的重要文章多花点时间（多读几遍），不重要的略读（跳过）即可。**
-
+     > <span style="color:#000000;"> **与主题相关性高的重要文章多花点时间（多读几遍），不重要的略读（跳过）即可。**</span> 
+   
 3. **用自己的语言，将资源的**<span style="color: #e74c3c">**核心发现和技术**</span>**有条理的记录下来【**<span style="color: #e74c3c">**做结构化的笔记，用你自己的话总结**</span>**】**
 
 
@@ -260,7 +258,7 @@ How to Read a Paper——如何阅读一篇论文：三遍阅读法
 
 [https://mp.weixin.qq.com/s/bJFT8R8VAunmvPPqoc7JXQ](https://mp.weixin.qq.com/s/bJFT8R8VAunmvPPqoc7JXQ)
 
-<span style="color: #e74c3c">如何阅读一篇学术论文 [译]</span>[👍]：
+<span style="color:#e74c3c;"> **如何阅读一篇学术论文 [译]**</span> ：
 
 [https://baoyu.io/translations/learning/how-to-read-a-paper](https://baoyu.io/translations/learning/how-to-read-a-paper)
 
