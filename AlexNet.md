@@ -51,14 +51,14 @@ AlexNet 赢下了 2012 ImageNet 竞赛后，标注着新一轮神经网络热潮
 
 **人工特征 —> 神经网络自动提取特征**。如上图所示，左侧人工特征提取和SVM是**独立的过程**；而右侧通过神经网络自动提取特征和Softmax分类是**一起训练的过程**。
 
-==**神经网络自动提取特征**==
+<mark> **神经网络自动提取特征**</mark> 
 
-- ==**End-to-end（端到端，没有复杂的特征工程），直接处理原始像素（raw RGB values of the pixels），简化了数据预处理。**==
-- ==**Learn from data（数据驱动）**==
+- <mark>  **End-to-end（端到端，没有复杂的特征工程），直接处理原始像素（raw RGB values of the pixels），简化了数据预处理。**</mark>   
+- <mark> **Learn from data（数据驱动**）</mark> 
 
 
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/3f9a537613a7b62f9b10de1fd029f834.jpg)
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/0f66fed8dbfc762459d45999968ef9d5.jpg)
 
 **注：**
 
@@ -141,20 +141,20 @@ for layer in net:
     
     
 """
-Conv2d output shape:     torch.Size([1, 96, 54, 54])           # (224+2*1-11)/4 + 1 = 53 + 1 = 54
+Conv2d output shape:     torch.Size([1, 96, 54, 54])          # (224+2*1-11)/4 + 1 = 53 + 1 = 54
 ReLU output shape:       torch.Size([1, 96, 54, 54])
-MaxPool2d output shape:  torch.Size([1, 96, 26, 26])        # (54-3)/2 + 1 = 26
+MaxPool2d output shape:  torch.Size([1, 96, 26, 26])          # (54-3)/2 + 1 = 26
 Conv2d output shape:     torch.Size([1, 256, 26, 26])         # (26+2*2-5)/1 + 1 = 26
 ReLU output shape:       torch.Size([1, 256, 26, 26])
-MaxPool2d output shape:  torch.Size([1, 256, 12, 12])       # (26-3)/2 + 1 = 12
+MaxPool2d output shape:  torch.Size([1, 256, 12, 12])         # (26-3)/2 + 1 = 12
 Conv2d output shape:     torch.Size([1, 384, 12, 12])
 ReLU output shape:       torch.Size([1, 384, 12, 12])
 Conv2d output shape:     torch.Size([1, 384, 12, 12])         # (12+2*1-3)/1 + 1 = 12 
 ReLU output shape:       torch.Size([1, 384, 12, 12])
 Conv2d output shape:     torch.Size([1, 256, 12, 12])         # (12+2*1-3)/1 + 1 = 12
 ReLU output shape:       torch.Size([1, 256, 12, 12])
-MaxPool2d output shape:  torch.Size([1, 256, 5, 5])         # (12-3)/2 + 1 = 5
-Flatten output shape:    torch.Size([1, 6400])                    # 256*5*5 = 6400
+MaxPool2d output shape:  torch.Size([1, 256, 5, 5])           # (12-3)/2 + 1 = 5
+Flatten output shape:    torch.Size([1, 6400])                # 256*5*5 = 6400
 Linear output shape:     torch.Size([1, 4096])
 ReLU output shape:       torch.Size([1, 4096])
 Dropout output shape:    torch.Size([1, 4096])
@@ -207,11 +207,11 @@ AlexNet 确实学会了数据的高维表示。==<span style="color:#e74c3c;">**
 
 ## References
 
-[<span style="color:#3498db;">Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks\[J\]. Advances in neural information processing systems, 2012, 25.</span>](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+[Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[J]. Advances in neural information processing systems, 2012, 25.](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
-[<span style="color:#3498db;">Krizhevsky A, Sutskever I, Hinton G E. ImageNet classification with deep convolutional neural networks\[J\]. Communications of the ACM, 2017, 60(6): 84-90.</span>](https://dl.acm.org/doi/pdf/10.1145/3065386)
+[Krizhevsky A, Sutskever I, Hinton G E. ImageNet classification with deep convolutional neural networks[J]. Communications of the ACM, 2017, 60(6): 84-90.](https://dl.acm.org/doi/pdf/10.1145/3065386)
 
-[<span style="color:#3498db;">【7.1. 深度卷积神经网络（AlexNet）【动手学深度学习v2】】</span>](https://zh-v2.d2l.ai/chapter_convolutional-modern/alexnet.html)
+[7.1. 深度卷积神经网络（AlexNet）【动手学深度学习v2】](https://zh-v2.d2l.ai/chapter_convolutional-modern/alexnet.html)
 
 【9年后重读深度学习奠基作之一：AlexNet【论文精读·2】】 <https://www.bilibili.com/video/BV1ih411J7Kz/?share_source=copy_web&vd_source=6771d35251ef5959f68e7e6ca14fb957>
 

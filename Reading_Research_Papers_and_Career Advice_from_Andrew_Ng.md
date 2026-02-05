@@ -30,13 +30,13 @@
 
 
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career Advice_from_Andrew_Ng/5b36b5de8f57f2131a89c3b0e94f9d18.png)
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career_Advice_from_Andrew_Ng/5b36b5de8f57f2131a89c3b0e94f9d18.png)
 
 
 
 吴恩达教授建议，用一个表格记录自己对相关资源的理解（**建议使用资源理解程度表**），类似下图所示：
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career Advice_from_Andrew_Ng/6034de2fbd3c481fe709bdd4e7b84394.png)
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career_Advice_from_Andrew_Ng/6034de2fbd3c481fe709bdd4e7b84394.png)
 
 
 
@@ -56,20 +56,15 @@
 
   - **第1遍：**start with reading the following sections within the paper: **title, abstract and figures**.
     - 快读，领略大意，判断是否值得阅读。要点：发现不感兴趣，随时停止阅读！
+  - **第2遍：**reading the following sections: **introduction, conclusion, another pass through figures, scan through the rest of the content.**
+    - **抓住主要思想**
+  - **第3遍**：reading **the whole sections** within the paper but **skipping any complicated maths or technique formulations** that might be alien to you. During this pass, you can also **skip any terms and terminologies that you do not understand or aren’t familiar.**
+    - **纵览论文主体，那些耗费时间的数学与推导部分可以暂时跳过，我们掌握整体脉络与框架就行。**
+  - **第N遍：回头看**
+    - **回过头再来理解论文中复杂的的数学和公式，以及不了解的的术语**
+      - 如若要深入理解一个领域，这些公式和术语还是必须搞懂的。
+      - 这时候肯定还会有一些部分不能理解，那么暂时跳过它们以后再攻坚。
 
-- **第2遍：**reading the following sections: **introduction, conclusion, another pass through figures, scan through the rest of the content.**
-
-  - **抓住主要思想**
-
-- **第3遍**：reading **the whole sections** within the paper but **skipping any complicated maths or technique formulations** that might be alien to you. During this pass, you can also **skip any terms and terminologies that you do not understand or aren’t familiar.**
-
-  - **纵览论文主体，那些耗费时间的数学与推导部分可以暂时跳过，我们掌握整体脉络与框架就行。**
-
-- **第N遍：回头看**
-
-  - **回过头再来理解论文中复杂的的数学和公式，以及不了解的的术语**
-    - 如若要深入理解一个领域，这些公式和术语还是必须搞懂的。
-    - 这时候肯定还会有一些部分不能理解，那么暂时跳过它们以后再攻坚。
 
 
 - <span style="color: #e74c3c">**尝试重新推导数学并通过编程实现来练习。**</span>
@@ -121,7 +116,7 @@
 
 **专注于做重要的工作**
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career Advice_from_Andrew_Ng/9aaeeba16b33abdd38eb23068cff080a.png)
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career_Advice_from_Andrew_Ng/9aaeeba16b33abdd38eb23068cff080a.png)
 
 ### 2.1 找工作
 
@@ -129,15 +124,16 @@
 
 - 对人工智能中许多不同的主题有广泛的理解，并在至少一个领域有非常深刻的理解
 
-	- 对一些细分方向有深入的钻研和实践
+  - 对一些细分方向有深入的钻研和实践
 
-既要有横向宽度，又要有纵向深度。（T字型人才）
+- 既要有横向宽度，又要有纵向深度。（T字型人才）
 
-- **构建横向能力：**在这些领域建立基本技能的一个非常有效的方法是通过上课（课程）和阅读研究论文。
+  - **构建横向能力：**在这些领域建立基本技能的一个非常有效的方法是通过上课（课程）和阅读研究论文。
 
-- **构建纵向能力：**可以通过做相关项目、开源贡献、研究和实习来构建。
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career Advice_from_Andrew_Ng/a04309e5fcb274a2c4e6fd02ca6e7e76.png)
+  - **构建纵向能力：**可以通过做相关项目、开源贡献、研究和实习来构建。
+
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career_Advice_from_Andrew_Ng/a04309e5fcb274a2c4e6fd02ca6e7e76.png)
 
 ### 2.2 选择一份工作
 
@@ -205,7 +201,7 @@
 
 在信息爆炸的今天，尤其要注意这一点。
 
-![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career Advice_from_Andrew_Ng/373e2167204282461471dd4e010f4b96.png)
+![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/Reading_Research_Papers_and_Career_Advice_from_Andrew_Ng/373e2167204282461471dd4e010f4b96.png)
 
 **来自吴恩达老师对大家的鼓励：**
 
