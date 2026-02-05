@@ -5,20 +5,17 @@
 ### 1.1 整合论文资源，记录理解程度
 
 1. 收集和研究主题相关的资源。这些资源可以是**研究论文、Medium 文章、博客、视频、GitHub 项目**等等。
-
 2. <span style="color: #e74c3c">**跟踪记录对列表内每一项资源的理解程度（至关重要）【分级理解】**</span>
 
    - **建议先至少对列表中的每项资源有10-20%的理解。这可以确保你对收集到的资源有足够的整体性了解，从而能够准确判断它与研究主题的相关度。**
-
    - **对于相关度最高的论文或资源，你可以进行更深层次的理解。**
-
-     > <span style="color:#000000;"> **与主题相关性高的重要文章多花点时间（多读几遍），不重要的略读（跳过）即可。**</span> 
-   
+     - <span style="color:#e74c3c;"> **与主题相关性高的重要文章多花点时间（多读几遍），不重要的略读（跳过）即可。**</span> 
 3. **用自己的语言，将资源的**<span style="color: #e74c3c">**核心发现和技术**</span>**有条理的记录下来【**<span style="color: #e74c3c">**做结构化的笔记，用你自己的话总结**</span>**】**
 
 
 
-基本上，具体地说，试着快速浏览并理解每一篇文章，而不是全部读完，也许你读了每一篇文章的10-20%，也许这足以让你对手头的文章有一个高水平的理解。在那之后，你可能会决定删除其中的一些论文，或者只是浏览一两篇论文，把它们通读一遍。
+> 基本上，具体地说，试着快速浏览并理解每一篇文章，而不是全部读完，也许你读了每一篇文章的10-20%，也许这足以让你对手头的文章有一个高水平的理解。在那之后，你可能会决定删除其中的一些论文，或者只是浏览一两篇论文，把它们通读一遍。
+>
 
 你应该<span style="color: #e74c3c">**以一种并行的方式阅读研究论文**</span>（一次处理多篇论文）:
 
@@ -52,9 +49,9 @@
 
 - <span style="color: #000000">**重点论文至少读3遍，**</span><span style="color: #e74c3c">**Multiple passes（多遍阅读）**</span>
 
-  - **第1遍：**start with reading the following sections within the paper: **title, abstract and figures**.
+  - **第1遍**：start with reading the following sections within the paper: **title, abstract and figures**.
     - 快读，领略大意，判断是否值得阅读。要点：发现不感兴趣，随时停止阅读！
-  - **第2遍：**reading the following sections: **introduction, conclusion, another pass through figures, scan through the rest of the content.**
+  - **第2遍**：reading the following sections: **introduction, conclusion, another pass through figures, scan through the rest of the content.**
     - **抓住主要思想**
   - **第3遍**：reading **the whole sections** within the paper but **skipping any complicated maths or technique formulations** that might be alien to you. During this pass, you can also **skip any terms and terminologies that you do not understand or aren’t familiar.**
     - **纵览论文主体，那些耗费时间的数学与推导部分可以暂时跳过，我们掌握整体脉络与框架就行。**
