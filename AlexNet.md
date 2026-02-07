@@ -29,7 +29,7 @@
 
 ![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/c110c996081b5b52ba3a5418544540e7.png)
 
-> <span style="color:#000000;">**ImageNet**</span><span style="color:#000000;"> is a </span><span style="color:#000000;">dataset</span><span style="color:#000000;"> of over </span><span style="color:#000000;">**15 million**</span><span style="color:#000000;"> labeled high-resolution images belonging to roughly </span><span style="color:#000000;">**22,000 categories**</span><span style="color:#000000;">.</span> <span style="color:#000000;">ImageNet Large-Scale Visual Recognition Challenge (</span><span style="color:#000000;">**ILSVRC**</span><span style="color:#000000;">) uses a subset of ImageNet with roughly 1000 images in each of</span> <span style="color:#000000;">**1000 categories**</span><span style="color:#000000;">. In all, there are roughly </span><span style="color:#000000;">**1.2 million training images**</span><span style="color:#000000;">, 50,000 validation images, and 150,000 testing images.</span>
+> **ImageNet** is a dataset of over **15 million** labeled high-resolution images belonging to roughly **22,000 categories**. ImageNet Large-Scale Visual Recognition Challenge (**ILSVRC**) uses a subset of ImageNet with roughly 1000 images in each of 1000 categories. In all, there are roughly **1.2 million training images**, 50,000 validation images, and 150,000 testing images.
 
 
 
@@ -51,10 +51,10 @@ AlexNet 赢下了 2012 ImageNet 竞赛后，标注着新一轮神经网络热潮
 
 **人工特征 —> 神经网络自动提取特征**。如上图所示，左侧人工特征提取和SVM是**独立的过程**；而右侧通过神经网络自动提取特征和Softmax分类是**一起训练的过程**。
 
-<mark> **神经网络自动提取特征**</mark> 
+<mark>**神经网络自动提取特征**</mark>
 
-- <mark>  **End-to-end（端到端，没有复杂的特征工程），直接处理原始像素（raw RGB values of the pixels），简化了数据预处理。**</mark>   
-- <mark> **Learn from data（数据驱动**）</mark> 
+- <mark>**End-to-end（端到端，没有复杂的特征工程），直接处理原始像素（raw RGB values of the pixels），简化了数据预处理。**</mark>
+- <mark>**Learn from data（数据驱动）**</mark> 
 
 
 
@@ -83,13 +83,13 @@ AlexNet 赢下了 2012 ImageNet 竞赛后，标注着新一轮神经网络热潮
 
 ![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/7d11b1bfb5a3ae46aad48c4dd0cb7bc7.jpg)
 
-**注意：**
+**注：**
 
 `(224-11)/4` 不能整除，会向下取整，也就是说 Kernel 在水平移动时，最后几个不足 kernel\_size 的像素会被丢掉。在 Netscope 中这里被修改了，里面的输入被 resize 到 `227*227*3`。
 
-*   \[0, 10], \[11, 20], ..., \[211, 220]
+-   \[0, 10], \[11, 20], ..., \[211, 220]
 
-*   \[221, 223]三个像素被丢掉
+-   \[221, 223]三个像素被丢掉
 
 如想要计算 **Shape** 的变化，可参考：
 
@@ -167,7 +167,7 @@ Linear output shape:     torch.Size([1, 10])
 
 
 
-**AlexNet 是更大更深的 LeNet。**两者对比如下：
+**AlexNet 是更大更深的 LeNet。** 两者对比如下：
 
 ![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/cd576b676097e58db7f4fc62e51ee429.png)
 
@@ -183,9 +183,9 @@ Linear output shape:     torch.Size([1, 10])
 
 ![](https://raw.githubusercontent.com/wwxu-zx/blog/main/assets/AlexNet/506c1a5125ec18abaeabda52772c9f54.png)
 
-如上图右侧第2行，这些大象图片之间的像素值本身非常不同，但是它们是高度相似的概念。【==<span style="color:#000000;">**semantically similar**</span>==】
+如上图右侧第2行，这些大象图片之间的像素值本身非常不同，但是它们是高度相似的概念。【**semantically similar**】
 
-AlexNet 确实学会了数据的高维表示。==<span style="color:#e74c3c;">**This high dimensional space is often called a latent or embedding space.**</span>==
+AlexNet 确实学会了数据的高维表示。**This high dimensional space is often called a latent or embedding space.**
 
 
 
